@@ -8,92 +8,128 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 public class home extends Activity implements View.OnClickListener {
-    RelativeLayout dialywork, orders, receipt, product, expenses, outstanding, salesdetails, mail,complaints;
+    RelativeLayout workorder, siteweight, factorymgmt, ho, hl, blockpost, iqf, packstores,complaints,despatch,
+            stockreport,orderstatus,loadingstatus,indent,complaint,message,reports;
     ImageView logout, profile, home, notification;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
-        dialywork = (RelativeLayout) findViewById(R.id.dialywork);
-        orders = (RelativeLayout) findViewById(R.id.orders);
-        receipt = (RelativeLayout) findViewById(R.id.receipt);
-        product = (RelativeLayout) findViewById(R.id.product);
-        expenses = (RelativeLayout) findViewById(R.id.expenses);
-        outstanding = (RelativeLayout) findViewById(R.id.outstanding);
-        salesdetails = (RelativeLayout) findViewById(R.id.salesdetails);
-        mail = (RelativeLayout) findViewById(R.id.mail);
-        complaints = (RelativeLayout) findViewById(R.id.complaints);
+        workorder = (RelativeLayout) findViewById(R.id.workorder);
+        siteweight = (RelativeLayout) findViewById(R.id.siteweight);
+        factorymgmt = (RelativeLayout) findViewById(R.id.factorymgmt);
+        ho = (RelativeLayout) findViewById(R.id.ho);
+        hl = (RelativeLayout) findViewById(R.id.hl);
+        blockpost = (RelativeLayout) findViewById(R.id.blockpost);
+        iqf = (RelativeLayout) findViewById(R.id.iqf);
+        packstores = (RelativeLayout) findViewById(R.id.packstores);
+        despatch = (RelativeLayout) findViewById(R.id.despatch);
 
+        stockreport = (RelativeLayout) findViewById(R.id.stockreport);
+        orderstatus = (RelativeLayout) findViewById(R.id.orderstatus);
+        loadingstatus = (RelativeLayout) findViewById(R.id.loadingstatus);
+        indent = (RelativeLayout) findViewById(R.id.indent);
+        complaint = (RelativeLayout) findViewById(R.id.complaint);
+        message = (RelativeLayout) findViewById(R.id.message);
+        reports = (RelativeLayout) findViewById(R.id.reports);
         home = (ImageView) findViewById(R.id.home);
         profile = (ImageView) findViewById(R.id.profile);
         logout = (ImageView) findViewById(R.id.logout);
         notification = (ImageView) findViewById(R.id.notification);
 
-        dialywork.setOnClickListener(this);
-        orders.setOnClickListener(this);
-        receipt.setOnClickListener(this);
-        product.setOnClickListener(this);
-        expenses.setOnClickListener(this);
-        outstanding.setOnClickListener(this);
-        salesdetails.setOnClickListener(this);
-        mail.setOnClickListener(this);
+        workorder.setOnClickListener(this);
+        siteweight.setOnClickListener(this);
+        factorymgmt.setOnClickListener(this);
+        ho.setOnClickListener(this);
+        hl.setOnClickListener(this);
+        blockpost.setOnClickListener(this);
+        iqf.setOnClickListener(this);
+        packstores.setOnClickListener(this);
+        despatch.setOnClickListener(this);
+        stockreport.setOnClickListener(this);
+        orderstatus.setOnClickListener(this);
+        loadingstatus.setOnClickListener(this);
+        indent.setOnClickListener(this);
+        complaint.setOnClickListener(this);
+        message.setOnClickListener(this);
+        reports.setOnClickListener(this);
+
         home.setOnClickListener(this);
         profile.setOnClickListener(this);
         logout.setOnClickListener(this);
         notification.setOnClickListener(this);
-        complaints.setOnClickListener(this);
-
-     /*   Animation myAnim = AnimationUtils.loadAnimation(home.this, R.anim.zoomin);
-        //dialywork.startAnimation(myAnim);
-        dialywork.startAnimation(myAnim);
-        orders.startAnimation(myAnim);
-        receipt.startAnimation(myAnim);
-        product.startAnimation(myAnim);
-        expenses.startAnimation(myAnim);
-        outstanding.startAnimation(myAnim);
-        mail.startAnimation(myAnim);
-        salesdetails.startAnimation(myAnim);*/
-
+        complaint.setOnClickListener(this);
 
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.dialywork:
+            case R.id.stockreport:
                 Intent i = new Intent(home.this, Profile.class);
                 startActivity(i);
                 break;
-            case R.id.orders:
+            case R.id.orderstatus:
+                Intent orderstatus = new Intent(home.this, Profile.class);
+                startActivity(orderstatus);
+                break;
+            case R.id.loadingstatus:
+                Intent loadingstatus = new Intent(home.this, Profile.class);
+                startActivity(loadingstatus);
+                break;
+            case R.id.indent:
+                Intent indent = new Intent(home.this, Profile.class);
+                startActivity(indent);
+                break;
+            case R.id.complaint:
+                Intent complaint = new Intent(home.this, Profile.class);
+                startActivity(complaint);
+                break;
+            case R.id.message:
+                Intent message = new Intent(home.this, Profile.class);
+                startActivity(message);
+                break;
+            case R.id.reports:
+                Intent reports = new Intent(home.this, Profile.class);
+                startActivity(reports);
+                break;
+
+
+
+            case R.id.workorder:
+                Intent workorder = new Intent(home.this, Profile.class);
+                startActivity(workorder);
+                break;
+            case R.id.siteweight:
                 Intent orders = new Intent(home.this, Profile.class);
                 startActivity(orders);
                 break;
-            case R.id.receipt:
+            case R.id.factorymgmt:
                 Intent receipt = new Intent(home.this, Profile.class);
                 startActivity(receipt);
                 break;
-            case R.id.product:
+            case R.id.ho:
                 Intent product = new Intent(home.this, Profile.class);
                 startActivity(product);
                 break;
-            case R.id.complaints:
+            case R.id.hl:
                 Intent complaints = new Intent(home.this, Profile.class);
                 startActivity(complaints);
                 break;
-            case R.id.expenses:
+            case R.id.blockpost:
                 Intent expenses = new Intent(home.this, Profile.class);
                 startActivity(expenses);
                 break;
-            case R.id.outstanding:
+            case R.id.iqf:
                 Intent outstanding = new Intent(home.this, Profile.class);
                 startActivity(outstanding);
                 break;
-            case R.id.salesdetails:
+            case R.id.packstores:
                 Intent salesdetails = new Intent(home.this, Profile.class);
                 startActivity(salesdetails);
                 break;
-            case R.id.mail:
+            case R.id.despatch:
                 Intent mail = new Intent(home.this, Profile.class);
                 startActivity(mail);
                 break;

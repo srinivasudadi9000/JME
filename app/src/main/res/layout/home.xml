@@ -70,7 +70,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/dialywork"
+                            android:id="@+id/workorder"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1">
@@ -80,7 +80,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                  android:padding="20dp"
-                                android:src="@drawable/org" />
+                                android:src="@drawable/work" />
 
 
                         </RelativeLayout>
@@ -92,7 +92,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/orders"
+                            android:id="@+id/siteweight"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="5dp"
@@ -103,7 +103,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                  android:padding="20dp"
-                                android:src="@drawable/administration" />
+                                android:src="@drawable/weight" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -113,7 +113,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/receipt"
+                            android:id="@+id/factorymgmt"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1">
@@ -127,7 +127,7 @@
                                 android:layout_alignParentTop="true"
                                 android:layout_weight="1"
                                  android:padding="20dp"
-                                android:src="@drawable/security" />
+                                android:src="@drawable/factoryweght" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -137,7 +137,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/hrm"
+                            android:id="@+id/ho"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_weight="1">
@@ -147,7 +147,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/hrm" />
+                                android:src="@drawable/ho" />
 
 
                         </RelativeLayout>
@@ -168,7 +168,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="ORG"
+                        android:text="Work Orders"
                          android:textStyle="bold" />
 
                     <TextView
@@ -176,21 +176,21 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="ADMIN"
+                        android:text="Site Weighment"
                          android:textStyle="bold" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="SGM"
+                        android:text="Factory Weighment"
                          android:textStyle="bold" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="HRM"
+                        android:text="H/O Pre Proc."
                         android:textStyle="bold" />
 
 
@@ -217,7 +217,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/product"
+                            android:id="@+id/hl"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
@@ -229,7 +229,7 @@
                                 android:layout_alignParentBottom="true"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/purchase" />
+                                android:src="@drawable/hl" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -240,7 +240,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/expenses"
+                            android:id="@+id/blockpost"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1">
@@ -251,7 +251,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/process" />
+                                android:src="@drawable/post" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -262,7 +262,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/outstanding"
+                            android:id="@+id/iqf"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
@@ -274,7 +274,7 @@
                                 android:layout_alignParentBottom="true"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/qualitymanagement" />
+                                android:src="@drawable/icq" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -285,7 +285,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/SALES"
+                            android:id="@+id/packstores"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
@@ -297,7 +297,7 @@
                                 android:layout_alignParentBottom="true"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/sales" />
+                                android:src="@drawable/packstore" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -316,7 +316,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="PM"
+                        android:text="H/L Pre Proc."
                         android:textStyle="bold" />
 
                     <TextView
@@ -324,7 +324,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="PPM"
+                        android:text="Blocks Post Proc."
                         android:textStyle="bold" />
 
                     <TextView
@@ -332,14 +332,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="QC"
+                        android:text="IQF Post- Proc."
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="SDM"
+                        android:text="Pack-Stores"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -364,7 +364,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/salesdetails"
+                            android:id="@+id/despatch"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1">
@@ -374,7 +374,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                  android:padding="20dp"
-                                android:src="@drawable/inventory" />
+                                android:src="@drawable/dispatch" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -385,7 +385,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/mail"
+                            android:id="@+id/stockreport"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
@@ -396,7 +396,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                  android:padding="20dp"
-                                android:src="@drawable/generalstores" />
+                                android:src="@drawable/stockreport" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -407,7 +407,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/complaints"
+                            android:id="@+id/orderstatus"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1">
@@ -418,7 +418,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                  android:padding="20dp"
-                                android:src="@drawable/assets" />
+                                android:src="@drawable/status" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -428,7 +428,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/VM"
+                            android:id="@+id/loadingstatus"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1">
@@ -439,7 +439,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/vehicle" />
+                                android:src="@drawable/loadingstatus" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -459,7 +459,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="IM"
+                        android:text="Despatches"
                          android:textStyle="bold" />
 
                     <TextView
@@ -467,7 +467,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="GSM"
+                        android:text="Stock Report"
                          android:textStyle="bold" />
 
                     <TextView
@@ -475,14 +475,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="AMM"
+                        android:text="Orders Status"
                          android:textStyle="bold" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="VM"
+                        android:text="Loading Status"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -509,7 +509,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/gst"
+                            android:id="@+id/indent"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1">
@@ -519,7 +519,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/gst" />
+                                android:src="@drawable/indent" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -530,7 +530,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/fm"
+                            android:id="@+id/complaint"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
@@ -541,7 +541,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/finance" />
+                                android:src="@drawable/complaint" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -552,7 +552,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/mis"
+                            android:id="@+id/message"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1">
@@ -563,7 +563,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/managementinfo" />
+                                android:src="@drawable/message" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -573,7 +573,7 @@
                         android:layout_weight="1">
 
                         <RelativeLayout
-                            android:id="@+id/um"
+                            android:id="@+id/reports"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1">
@@ -584,7 +584,7 @@
                                 android:layout_height="150dp"
                                 android:layout_weight="1"
                                 android:padding="20dp"
-                                android:src="@drawable/help" />
+                                android:src="@drawable/reports" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -605,7 +605,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="GST"
+                        android:text="Indent"
                         android:textStyle="bold" />
 
                     <TextView
@@ -613,7 +613,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="FM"
+                        android:text="Complaint"
                         android:textStyle="bold" />
 
                     <TextView
@@ -621,14 +621,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="MIS"
+                        android:text="Message"
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="UM"
+                        android:text="Reports"
                         android:textStyle="bold" />
 
                 </LinearLayout>
