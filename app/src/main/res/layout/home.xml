@@ -61,7 +61,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
                     android:orientation="horizontal"
-                    android:padding="5dp"
+                    android:padding="0dp"
                     android:weightSum="4">
 
                     <android.support.v7.widget.CardView
@@ -127,7 +127,7 @@
                                 android:layout_alignParentTop="true"
                                 android:layout_weight="1"
                                  android:padding="20dp"
-                                android:src="@drawable/factoryweght" />
+                                android:src="@drawable/weight" />
 
                         </RelativeLayout>
                     </android.support.v7.widget.CardView>
@@ -157,7 +157,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:background="#ffffff"
+                     android:background="#ffffff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -176,21 +176,21 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Site Weighment"
+                        android:text="Site Wt"
                          android:textStyle="bold" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Factory Weighment"
+                        android:text="Factory Wt"
                          android:textStyle="bold" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="H/O Pre Proc."
+                        android:text="H/O P.P"
                         android:textStyle="bold" />
 
 
@@ -209,7 +209,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
                     android:orientation="horizontal"
-                    android:padding="5dp"
+                    android:padding="0dp"
                     android:weightSum="4">
                     <android.support.v7.widget.CardView
                         android:layout_width="match_parent"
@@ -306,7 +306,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:background="#ffffff"
+                     android:background="#ffffff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -316,7 +316,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="H/L Pre Proc."
+                        android:text="H/L P.P"
                         android:textStyle="bold" />
 
                     <TextView
@@ -324,7 +324,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Blocks Post Proc."
+                        android:text="Blocks Pro."
                         android:textStyle="bold" />
 
                     <TextView
@@ -332,14 +332,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="IQF Post- Proc."
+                        android:text="IQF."
                         android:textStyle="bold" />
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Pack-Stores"
+                        android:text="Pack Stores"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -355,7 +355,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
                     android:orientation="horizontal"
-                    android:padding="5dp"
+                    android:padding="0dp"
                     android:weightSum="4">
 
                     <android.support.v7.widget.CardView
@@ -448,7 +448,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:background="#ffffff"
+                     android:background="#ffffff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -482,7 +482,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="Loading Status"
+                        android:text="Loading"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -500,7 +500,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
                     android:orientation="horizontal"
-                    android:padding="5dp"
+                    android:padding="0dp"
                     android:weightSum="4">
 
                     <android.support.v7.widget.CardView
@@ -593,7 +593,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:background="#ffffff"
+                     android:background="#ffffff"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
